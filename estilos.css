@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    background-color: #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.contenedor{
+    width: 620px;
+    height: 227px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulos{
+   margin-left: 10px;
+   height: 50px;
+   align-content: flex-start;
+
+}
+
+.titulo{
+    margin: 0;
+    font-size: 19px;
+}
+
+.titulo1{
+    margin: 0;
+    font-size: 16px;
+}
+
+.texto{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fecha{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.division{
+    width: 600px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.itemsizq{
+    display: flex;
+    flex-direction: row;
+}
+.nroet{
+    font-size: 15px;
+}
+
+.likes{
+    margin-left: 10px;
+}
+
+.itemsder{
+    margin-left: 20px;
+}
+
+.der{
+    font-size: 16px;
+    padding-left: 20px;
+    margin-left: 20px;
+    word-spacing: 3px;
+    align-content: space-between;
+    text-decoration: none;
+    color: black;
+}
